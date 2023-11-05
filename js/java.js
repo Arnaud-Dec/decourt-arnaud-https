@@ -5,6 +5,17 @@ const validFormButton = document.querySelector('#submit');
 const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 let isValid = false;
 let tableElement = document.getElementById("myTable")
+let fleche = document.getElementById("scrollToTop")
+
+if(fleche){
+document.querySelector('#scrollToTop').addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+});
+}
 
 if (tableElement) {
     let table = "<table><tr><th>Variables</th>";

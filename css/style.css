@@ -3,6 +3,18 @@
     box-sizing  : border-box;
 }
 
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.5;
+}
+
+#scrollToTop img {
+    width: 50px;
+}
+
+
 nav {
 
     background: beige;
