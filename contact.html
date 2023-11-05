@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+
+    <nav>
+
+
+        <input type="checkbox" id="burger" class="sous">
+
+        <label for="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul>
+            <li><a href="index.html" class="btn">accueil</a></li>
+            <li><a class="btn">présentation</a></li>
+            <li id="contact" ><a href="contact.html" class="btn">contact</a></li>
+            <li>
+                <a class="btn" href="blog.html">blog</a>
+                <ul class="sous">
+                    <li><a href="articles/article1.html" class="btn">article 1</a></li>
+                    <li><a href="articles/article2.html" class="btn">article 2</a></li>
+                    <li><a href="articles/article3.html" class="btn">article 3</a></li>
+                    <li><a href="articles/article4.html" class="btn">article 4</a></li>
+                </ul>
+            </li>
+
+            <li><a href="abonnezvous.html" class="btn">abonnez-vous</a></li>
+            <li><a class="btn" href="statistique.html">stastique</a></li>
+        </ul>
+    </nav>
+
+
+</header>
+
+<h1>Contact</h1>
+
+<main id="contactMain">
+
+
+
+<form>
+    <fieldset>
+        <legend>Contactez-nous</legend>
+        <label for="name">Sujet</label>
+
+        <input type="text" id="name" name="name" placeholder="votre sujet" required class="required">
+
+        <label for="email"> E-mail</label>
+
+        <input type="email" id="email" name="email" placeholder="votre email" required class="required">
+
+
+        <label for="nom">nom</label>
+
+        <input type="text" id="nom" name="nom" placeholder="votre nom" required class="required">
+
+
+        <label for="prenom">prénom</label>
+
+        <input type="text" id="prenom" name="prenom" placeholder="votre prenom" required class="required">
+
+
+        <label for="content" >message</label>
+
+        <textarea name=”content” id="content"></textarea>
+
+        <div>
+            <button type="submit" id="submit">Envoyer</button>
+            <button type="reset">Effacer</button>
+        </div>
+    </fieldset>
+</form>
+
+</main>
+
+<aside id="contactAside">
+    <div>
+        <h2>coordonées</h2>
+        <p>téléphone :<br>+33 7 88 73 74 31</p>
+        <p>adresse :<br>31 Bd Jule Fery</p>
+        <p>code postal :<br>01000</p>
+        <p>villes :<br>Bourg-en-Bresse</p>
+    </div>
+</aside>
+
+<footer >
+    <div >
+        <div >
+
+            <ul>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#p1">article 1</a></li>
+                <li><a href="#p2">article 2</a></li>
+                <li><a href="#p3">article 3</a></li>
+                <li><a href="articles/article4.html">article 4</a></li>
+            </ul>
+            <p >© 2023 Saraz heinnn ? All rights reserved.</p>
+
+
+        </div>
+    </div>
+</footer>
+<script src="js/java.js"></script>
+</body>
+</html>

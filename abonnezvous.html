@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>abonnez-vous</title>
+    <script> src="js/java.js"</script>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+
+    <nav>
+
+
+        <input type="checkbox" id="burger" class="sous">
+
+        <label for="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul>
+            <li><a href="index.html" class="btn">accueil</a></li>
+            <li><a class="btn">présentation</a></li>
+            <li id="contact"><a class="btn" href="contact.html">contact</a></li>
+            <li>
+                <a class="btn" href="blog.html">blog</a>
+                <ul class="sous">
+                    <li><a href="articles/article1.html" class="btn">article 1</a></li>
+                    <li><a href="articles/article2.html" class="btn">article 2</a></li>
+                    <li><a href="articles/article3.html" class="btn">article 3</a></li>
+                    <li><a href="articles/article4.html" class="btn">article 4</a></li>
+                </ul>
+            </li>
+
+            <li><a href="abonnezvous.html" class="btn">abonnez-vous</a></li>
+            <li><a class="btn" href="statistique.html">stastique</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="center">
+
+    <h1>Abonnement</h1>
+
+
+    <form class="px550 center">
+        <h2>Indentification</h2>
+        <div>
+            <input type="email" name="email" required placeholder=* id="email" class="required">
+            <label for="email">E-mail</label>
+        </div>
+
+        <div>
+            <input type="password" name="password" required placeholder=* id="mdp" class="required">
+            <label for="mdp">Mot de passe</label>
+        </div>
+
+        <div>
+            <input type="text" class="required" name="nom" required placeholder=* id="nom">
+            <label for="nom">Nom</label>
+
+            <input type ="text" name="prenom" required placeholder=* id="prenom" class="required">
+            <label for="prenom">Prénom</label>
+        </div>
+
+        <div>
+            <input type ="date"  name="date" required min="1950-01-01" max="2010-12-12" id="date">
+            <label for="date">Date de naissance</label>
+        </div>
+
+        <div>
+            <input type="number" class="required" name="postal" required placeholder=* pattern="[0-9]{5}" id="postal">
+            <label for="postal">Code postal</label>
+        </div>
+
+        <div>
+            <input type="text" class="required" name="ville" required placeholder=* id="ville">
+            <label for="ville">ville</label>
+        </div>
+        <p>les information d'identification sont confidentiel et obligatoire</p>
+        <div>
+            <h2>Quelle est votre genre</h2>
+            <input type="radio" name="sex" value="homme" id="sex-homme">
+            <label for="sex-homme">homme</label>
+            <input type="radio" name="sex" value="femme" id="sex-femme">
+            <label for="sex-femme"> femme</label>
+            <input type="radio" name="sex" value="non rensseigné" checked id="sex-non" >
+            <label for="sex-non">non renseigné</label>
+        </div>
+
+        <div>
+            <input type="file" name="avatar" accept="image/*" id="pp" >
+            <label for="pp">choisisez votre photo de profille</label>
+        </div>
+
+        <div>
+            <h2> Quelle sont vos hobbies</h2>
+            <input type="checkbox" name="loisir" value="jeux video" id="check-jeu">
+            <label for="check-jeu"> Jeux vidéo</label>
+
+            <input type="checkbox" name="loisir" value="film" id="check-film">
+            <label for="check-film">Film</label>
+
+            <input type="checkbox" name="loisir" value="série" id="check-serie">
+            <label for="check-serie">Série</label>
+
+            <input type="checkbox" name="loisir" value="sport" id="check-sport">
+            <label for="check-sport">Sport</label>
+            <input type="checkbox" name="loisir" value="voyage" id="check-voyage">
+            <label for="check-voyage">Voyage</label>
+            <input type="checkbox" name="loisir" value="musique" id="check-musique">
+            <label for="check-musique">Musique</label>
+        </div>
+
+        <div>
+
+            <input type="color" name="color" id="ch-color">
+            <label for="ch-color"> choisisez votre couleur préférer</label>
+        </div>
+
+        <div>
+            <button type=”submit” id="submit">Envoyer</button>
+            <button type=”reset”>Effacer</button>
+        </div>
+
+    </form>
+</main>
+<footer >
+    <div >
+        <div >
+
+            <ul>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#p1">article 1</a></li>
+                <li><a href="#p2">article 2</a></li>
+                <li><a href="#p3">article 3</a></li>
+                <li><a href="articles/article4.html">article 4</a></li>
+            </ul>
+            <p >© 2023 Saraz heinnn ? All rights reserved.</p>
+
+
+        </div>
+    </div>
+</footer>
+<script src="js/java.js"></script>
+</body>
+</html>

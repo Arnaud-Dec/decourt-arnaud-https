@@ -1,0 +1,461 @@
+*{margin :0;
+    padding : 0;
+    box-sizing  : border-box;
+}
+
+nav {
+
+    background: beige;
+    display : flex ;
+    justify-content: center;
+    height: 100%;
+}
+
+.sous {
+    display: none;
+    position: absolute;
+}
+
+header nav > ul li:hover .sous{
+    display :grid;
+    background: beige;
+    border-radius: 20px;
+    margin-left: -28px;
+
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav li { padding : 20px ;}
+
+nav ol {
+    display : flex ;
+}
+
+h1{
+    display : flex;
+    justify-content: center;
+    color: rgba(170,140,112,0.58);
+    font-size: 100px;
+    width: 100%;
+}
+
+
+#p1Titre {
+    background: url("../img/fond2.jpg") no-repeat center center;
+    background-size: cover;
+    color: beige;
+    padding: 20%;
+    width: auto;
+
+}
+
+
+
+
+
+h2{
+    justify-content: center;
+}
+
+header  {
+    display: flex;
+    justify-content: center ;
+    background-size: cover;
+    background: beige;
+}
+
+
+section {
+
+    border-radius: 20px;
+    margin: 20px;
+    background: rgba(170,140,112,0.58);
+
+
+}
+
+section img{
+    width: 300px;
+
+}
+
+section h2{
+    text-align: center;
+    margin : 10px;
+
+}
+
+section img {
+    border-radius: 20px;
+}
+section p {
+    margin: 20px;
+}
+section#p1 img{
+    float: left;
+    margin : 10px;
+}
+
+section#p3 img{
+    float: left;
+    margin : 10px;
+}
+
+section#p2 img{
+    float: right;
+    margin : 10px;
+}
+
+section#p4 img{
+    float: right;
+    margin : 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+body {
+    background: beige;
+
+}
+
+footer div div ul {
+    display : flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    list-style : none;
+
+
+}
+
+footer div div ul li {
+    background: rgba(170,140,112,0.58);
+    border-radius: 5px;
+
+
+}
+
+footer p {
+    text-align: center;
+}
+
+footer div div ul li a {
+    color : beige;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.btn {
+    border-radius: 10px;
+    background: rgba(170,140,112,0.58);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color : black;
+
+
+
+}
+
+a.btn:hover{
+    background: white;
+    border-color: black;
+    border: 1px solid;
+
+}
+
+a.btn:active{
+    background: black;
+}
+
+.scale {
+    transition: transform 0.5s;
+}
+
+img.scale:hover{
+
+    transform: scale(1.2);
+}
+
+section a.btn{
+    margin :10px;
+}
+
+
+/* contact
+ */
+
+legend{
+    text-align: center;
+}
+form fieldset{
+    display: grid;
+    border-style: none;
+    border-color : rgba(170,140,112,0.58);
+    border-width: 5px;
+    justify-content: center;
+
+
+}
+
+form fieldset button{
+    width: 50%;
+}
+
+
+form fieldset div{
+    display: inline-block;
+
+}
+
+
+/*article 4
+
+ */
+#titreArticle{
+
+    padding-left: 25%;
+}
+
+
+#imageArticle {
+
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+}
+
+aside img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+
+#articleMain{
+    float : left;
+    width : 80%;
+}
+
+
+
+#articleAside {
+    float: left;
+    width: 20%;
+    margin-top: 140px;
+    display: inline-block;
+}
+
+#contactMain {
+    float : left;
+    width : 60%;
+}
+
+#contactAside {
+    float: left;
+    width: 40%;
+}
+
+#contactAside div{
+    background:  rgba(170,140,112,0.58) ;
+    justify-content: center;
+    width: auto;
+}
+
+aside div{
+    background: beige;
+    border-radius: 20px;
+    padding: 3px;
+    margin-bottom: 5px;
+
+}
+
+aside section{
+    padding: 10px;
+
+}
+main section{
+    padding: 5px;
+}
+
+.blog img {width: 100%}
+aside a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+
+
+}
+
+
+.center {
+    justify-content: center;
+}
+
+/*
+Abonnez-vous
+ */
+
+
+form {
+
+    height: auto;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: rgba(170,140,112,0.58);
+    margin-bottom: 5%;
+    padding: 5px;
+}
+
+form div {
+    width: 100%;
+    padding: 10px;
+}
+
+.tableaux {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tableaux table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(170,140,112,0.58);
+    border-radius: 20px;
+
+}
+
+th, td {
+
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+
+/* téléphone*/
+
+@media(max-width: 768px) {
+
+    /*blog*/
+    header nav > ul li .sous {
+        display: grid;
+        background: beige;
+        border-radius: 20px;
+        margin-left: -22px;
+    }
+
+    header nav{
+        background: rgba(170,140,112,0.58);
+        width: 100%;
+    }
+
+
+    section img{
+        width: 92%;
+
+    }
+
+    form{
+        width: 90%;
+
+    }
+
+    form input{
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #articleMain{
+        width: 100%;
+    }
+
+
+    #articleAside {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    aside div{
+        margin-bottom: 15px;
+    }
+
+    #titreArticle{
+
+        padding-left: 0%;
+    }
+
+
+
+
+
+
+    nav ul{
+        display: none;
+    }
+
+    #burger:checked ~ ul{
+        display: block;
+        list-style-type: none;
+        overflow: hidden;
+        justify-content: space-around;
+        transition-duration: 1s;
+    }
+    #burger:checked ~ ul li {
+
+    }
+    label[for="burger"] span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px auto;
+        transition-duration: 1s;
+    }
+    label[for="burger"] {
+        padding: 5px 5px;
+        z-index:1;
+        position: relative;
+        display: inline-block;
+
+    }
+    #burger:checked + label span:nth-child(1) {
+        transform: rotate(-405deg) translate(-5px, 6px);
+        transition-duration: 1s;
+    }
+    #burger:checked + label span:nth-child(2) {
+        opacity: 0;
+        transform: rotate(-360deg) translate(-5px, 6px);
+        transition-duration: 1s;
+    }
+    #burger:checked + label span:nth-child(3) {
+        transform: rotate(405deg) translate(-5px, -6px);
+        transition-duration: 1s;
+    }
+
+}
