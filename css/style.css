@@ -251,7 +251,9 @@ aside img{
     width : 80%;
 }
 
-
+#articleMain ul{
+    padding-left: 15px;
+}
 
 #articleAside {
     float: left;
@@ -268,6 +270,11 @@ aside img{
 #contactAside {
     float: left;
     width: 40%;
+
+}
+
+#contactAside p{
+    padding: 11px;
 }
 
 #contactAside div{
